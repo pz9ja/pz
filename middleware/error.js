@@ -1,5 +1,5 @@
 const winston = require('winston');
-
+//error handlers for our route handlers
 module.exports = function(err, req, res, next) {
 
     winston.error(err.message, err)

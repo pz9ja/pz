@@ -53,7 +53,14 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         minlength: 5
-    }
+    },
+
+    url: {
+        type: String,
+        default: null
+    },
+
+    // referrals: [userSchema]
 });
 
 // function to generate web token for the user 

@@ -27,7 +27,7 @@ router.post('/register', async(req, res) => {
     if (email) return res.status(404).send('User with email  Already exist');
 
     //create new user 
-    const rand = Math.floor((Math.random() * 200000) + 1)
+
     let user = new Users({
         firstName: req.body.firstName,
         lastName: req.body.lastName,
@@ -42,13 +42,13 @@ router.post('/register', async(req, res) => {
 
 
     const salt = await bcrypt.genSalt(10);
-    user.password = await bcrypt.hash(user.password, salt)
-    user = await user.save()
+    user.password = await bcrypt.hash(user.password, salt);
+    user = await user.save();
 
     const token = user.generateAuthToken();
-    console.log(token)
+
     res.header('x-user-token', token).send(_.pick(user, ['_id', 'name', 'email', 'password']));
-    console.log(token)
+
 
     let transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -84,8 +84,8 @@ router.post('/register', async(req, res) => {
 
 })
 
-
-router.put('/confirmation/:id', async(req, res) => {
+// Account Confirmation
+router.get('/confirmation/:id', async(req, res) => {
     const token = req.params.id;
     console.log(token);
 

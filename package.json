@@ -1,0 +1,39 @@
+{
+  "name": "pz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "config": "^3.0.0",
+    "express": "^4.16.3",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^3.13.0",
+    "joi": "^13.5.2",
+    "joi-objectid": "^2.0.0",
+    "joi-password-complexity": "^2.0.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0",
+    "nodemailer": "^5.1.1",
+    "pug": "^2.0.3",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pz9ja/pz.git"
+  },
+  "author": "Osars, Mendo and KC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pz9ja/pz/issues"
+  },
+  "homepage": "https://github.com/pz9ja/pz#readme"
+}

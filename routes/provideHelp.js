@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const { phValidate, ph } = require('../models/ph');
+const { phValidate, ph } = require('../models/ProvideHelp');
 const { Users } = require('../models/user')
 const mongoose = require('mongoose');
 const express = require('express');
@@ -22,12 +22,12 @@ router.post('/provide_help', async(req, res) => {
             name: `${user.firstName} ${user.lastName}`,
             phone_number: user.phone_number,
             account_details: { type: Array },
-            amount: req.body.amount,
+            amount: { type: String, default: "2000" },
 
         });
 
         const data = await PH.save();
-        res.send(data)
+        res.send("Thanks for providing help, you will be matched in 30 minutes " + data)
 
     }
 

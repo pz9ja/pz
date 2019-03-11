@@ -9,11 +9,9 @@ const jwt = require('jsonwebtoken');
 //defining the schema for all users
 
 phSchema = new mongoose.Schema({
-    name: { type: String, minlength: 3, maxlength: 256 },
-    phone_number: { type: String, minlength: 10 },
-    account_details: { type: Array },
-    amount: Number,
-    // date: new Date().getDate()
+    user_id: String,
+    amount: String,
+    date: { type: Date, default: Date.now() }
 
 })
 
@@ -26,6 +24,6 @@ function phValidate(reqbody) {
     return Joi.validate(reqbody, schema)
 
 }
-const ph = mongoose.model('PH TABLE', phSchema);
+const ph = mongoose.model('ProvideHelp', phSchema);
 
 module.exports = { phValidate, ph }

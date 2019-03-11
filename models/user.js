@@ -92,4 +92,4 @@ function Validate(reqbody) {
 
 const Users = mongoose.model('Users', userSchema)
 
-module.exports = { Users, Validate }
+module.exports = { Users, Validate, userSchema }

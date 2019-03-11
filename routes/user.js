@@ -6,7 +6,7 @@ const express = require('express')
 const router = express.Router()
 const nodemailer = require('nodemailer');
 const config = require('config');
-const jwt = require('jsonwebtoken')
+const jwt = require('jsonwebtoken');
 
 
 // creating route for users
@@ -37,6 +37,7 @@ router.post('/register', async(req, res) => {
         phoneNumber: req.body.phoneNumber,
         password: req.body.password,
         isVerified: false,
+
 
     });
 

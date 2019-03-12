@@ -96,8 +96,8 @@ router.post('/register', async(req, res) => {
 })
 
 // Account Confirmation
-router.get('/confirmation/:id', async(req, res) => {
-    const token = req.params.id;
+router.get('/confirmation/:token', async(req, res) => {
+    const token = req.params.token;
     console.log(token);
 
     if (!token) {
@@ -113,12 +113,68 @@ router.get('/confirmation/:id', async(req, res) => {
     const userVerified = await Users.findById(req.user._id)
     console.log(userVerified.email)
     if (userVerified) {
-        await Users.findByIdAndUpdate(userVerified._id, { isVerified: true }, { new: true });
+        await Users.findByIdAndUpdate(userVerified._id, { isVerified: true });
 
         res.send("User verified");
     }
 
 })
+
+// route to edit user profile
+router.put('/edit/:id', async(req, res) => {
+    const Val = Validate(req.body);
+    if (Val.error) return res.status(400).send(Val.error.details[0].message)
+
+    const UsersExist = await Users.findByIdAndUpdate(req.params.id, {
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        phoneNumber: req.body.phoneNumber,
+
+    })
+
+    if (!UsersExist) return res.status(400).send('INVALID REQUEST, Users NOT FOUND')
+
+    res.send(UsersExist)
+
+})
+
+//route to delete a user
+router.delete('/delete/:id', async(req, res) => {
+
+    const UsersExist = await Users.findByIdAndDelete(req.params.id);
+
+    if (!UsersExist) return res.status(404).send(' User not found or has already been deleted')
+
+    res.send(`User with username : ${UsersExist.username} has been deleted`);
+})
+
+//route to get all users
+router.get('/all', async(req, res) => {
+    const UsersAll = await Users.find();
+    if (UsersAll.length == 0) {
+        res.send('No registered users available!')
+    }
+    res.send(UsersAll);
+})
+
+//route to get a particular user
+router.get('/selected/:id', async(req, res) => {
+    const User = await Users.findById(req.params.id)
+    res.send(User);
+})
+
+//route to get all isVerified users
+
+router.get('/verified', async(req, res) => {
+    const VerifiedUser = await Users.find({ isVerified: true });
+    if (VerifiedUser.length == 0) {
+        res.send('No Verified User Available')
+    } else {
+        res.send(VerifiedUser);
+    }
+
+})
+
 
 
 

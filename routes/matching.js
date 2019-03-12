@@ -1,14 +1,22 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
+
+/* models used in the application */
 const { Users } = require('../models/user');
 const { ph } = require('../models/ProvideHelp');
 const { GetHelp } = require('../models/GetHelp');
 const { Matching } = require('../models/Matching');
 const { TransactionsHistory } = require('../models/TransactionsHistory')
+    /* models used in the application */
+
+/* import for file upload */
 const multer = require('multer');
 const path = require('path');
 const pubPathImage = path.join(__dirname, '../public/images');
+/* import for file upload */
+
+// import for fawn , transactional database
 const Fawn = require('fawn');
 Fawn.init(mongoose);
 

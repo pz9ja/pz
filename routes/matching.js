@@ -5,9 +5,12 @@ const { Users } = require('../models/user');
 const { ph } = require('../models/ProvideHelp');
 const { GetHelp } = require('../models/GetHelp');
 const { Matching } = require('../models/Matching');
+const { TransactionsHistory } = require('../models/TransactionsHistory')
 const multer = require('multer');
 const path = require('path');
 const pubPathImage = path.join(__dirname, '../public/images');
+const Fawn = require('fawn');
+Fawn.init(mongoose);
 
 /* using multer */
 var storage = multer.diskStorage({
@@ -43,7 +46,7 @@ function checkFileType(file, cb) {
     }
 }
 
-
+//this route is for admin to match users to one another
 router.post('/', async(req, res) => {
 
     // check if user is in ph table
@@ -65,7 +68,7 @@ router.post('/', async(req, res) => {
 
 })
 
-// this routes upload evidence of payment to each ph action
+// this routes for users to upload evidence of payment to each ph action
 router.put('/upload', async(req, res) => {
     // using multer to upload the file to the database
     upload(req, res, (err) => {
@@ -92,9 +95,28 @@ router.put('/upload', async(req, res) => {
 
 })
 
+//for receiver aka gher to confirm payment
 router.put('/confirmpayment', async(req, res) => {
+
+    //save update data to matched user
     const match = await Matching.findByIdAndUpdate(req.body._id, { status: true }, { new: true });
     if (!match) return res.status(400).send('INVALID REQUEST, MATCH NOT FOUND');
+
+
+    console.log(match);
+    const transaction = new TransactionsHistory({
+        matchingid: match._id,
+        pher: match.pher,
+        gher: match.pher,
+        image: match.image,
+        status: match.status
+    })
+
+    new Fawn.Task()
+        .remove('matchedusers', { _id: match._id })
+        .save('transactionhistory', transaction)
+        .run()
+
     res.send(match)
 })
 

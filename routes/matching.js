@@ -60,12 +60,10 @@ router.post('/', async(req, res) => {
     const matchUser = new Matching({
         pher: req.body.pherid,
         gher: req.body.gherid
-
     });
 
     const data = await matchUser.save();
     res.send(data);
-
 })
 
 // this routes for users to upload evidence of payment to each ph action
@@ -86,24 +84,20 @@ router.put('/upload', async(req, res) => {
                     const match = await Matching.findByIdAndUpdate(req.body._id, { image: dataImg }, { new: true });
                     if (!match) return res.status(400).send('INVALID REQUEST, MATCH NOT FOUND');
                     res.send(dataImg)
-
                 } // end of save data function
                 saveData()
             } // else block
         }) //upload function
-
-
 })
 
 //for receiver aka gher to confirm payment
 router.put('/confirmpayment', async(req, res) => {
 
     //save update data to matched user
-    const match = await Matching.findByIdAndUpdate(req.body._id, { status: true }, { new: true });
+    const match = await Matching.findByIdAndUpdate(req.body._id, { status: true });
     if (!match) return res.status(400).send('INVALID REQUEST, MATCH NOT FOUND');
 
-
-    console.log(match);
+    //creating a new transaction data 
     const transaction = new TransactionsHistory({
         matchingid: match._id,
         pher: match.pher,
@@ -112,6 +106,9 @@ router.put('/confirmpayment', async(req, res) => {
         status: match.status
     })
 
+    /*using fawn to save delete from matchedusers that has been confirmed by the gher ,
+    then move to transaction history table
+    */
     new Fawn.Task()
         .remove('matchedusers', { _id: match._id })
         .save('transactionhistory', transaction)

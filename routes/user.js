@@ -8,6 +8,9 @@ const nodemailer = require('nodemailer');
 const config = require('config');
 const jwt = require('jsonwebtoken');
 
+// const Mail = require('../classes/mailer')
+
+
 
 // creating route for users
 
@@ -37,7 +40,6 @@ router.post('/register', async(req, res) => {
         phoneNumber: req.body.phoneNumber,
         password: req.body.password,
         isVerified: false,
-
 
     });
 
@@ -70,19 +72,27 @@ router.post('/register', async(req, res) => {
         subject: 'Verify your Email Address',
         text: `
         Click the link to verify your email address
-        
-        
+
+
         /api/user/confirmation/${token}`
     };
 
     transporter.sendMail(mailOptions, function(error, info) {
-        if (error) {
-            console.log('why email fail:', error);
-            //delete saved data
-        } else
-            console.log(info);
-    })
+            if (error) {
+                console.log('why email fail:', error);
+                //delete saved data
+            } else
+                console.log(info);
+        })
+        // Mail({
+        //     from,
+        //     to: "femoxmed@gmail.com",
+        //     subject,
+        //     text: `
+        // Click the link to verify your email address
 
+    // /api/user/confirmation/${token}`
+    // })
 })
 
 // Account Confirmation

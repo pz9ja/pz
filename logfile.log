@@ -1,337 +1,172 @@
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-08T17:37:37.853Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-08T17:37:39.041Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:30:27.316Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:30:28.346Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:41:45.359Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:41:46.628Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:45:59.428Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:46:00.469Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:55:31.908Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:55:32.952Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:57:33.097Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:57:34.205Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:57:41.448Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:57:42.524Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:57:51.425Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:57:52.499Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:58:01.154Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:58:02.230Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:58:32.871Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:58:33.965Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:58:59.634Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:59:00.710Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:59:22.481Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:59:23.533Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T11:59:40.336Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T11:59:41.402Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T12:00:52.606Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T12:00:57.094Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T12:00:58.128Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T12:54:19.095Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T12:54:20.137Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:00:31.310Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:00:32.375Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:21:35.358Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:21:36.492Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:21:46.006Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:21:47.300Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:22:28.987Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:22:30.170Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:22:43.864Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:22:44.909Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:23:14.184Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:23:15.256Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:23:58.167Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:23:59.267Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:25:16.343Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:25:17.419Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:26:28.685Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:26:29.760Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:26:37.797Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:26:38.864Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:26:49.160Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:26:50.210Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:27:06.191Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:27:07.268Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:29:21.016Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:29:22.092Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:29:45.070Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:29:46.127Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:32:30.891Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:32:31.925Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:32:47.487Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:32:48.620Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:36:51.323Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:36:52.397Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:38:37.895Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:38:39.015Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:43:50.349Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:43:51.478Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:46:38.416Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:46:39.485Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T13:48:08.190Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T13:48:09.236Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T14:04:07.946Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T14:04:09.013Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T14:06:33.550Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T14:06:34.730Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T14:07:41.025Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T14:07:42.143Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T14:11:45.704Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T14:11:46.775Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T14:43:31.266Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T14:43:32.333Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T16:08:18.713Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T16:08:19.749Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T16:11:37.454Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T16:11:38.488Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:01:44.689Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:01:45.757Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:04:43.365Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:04:44.459Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:05:35.360Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:05:36.589Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:05:59.122Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:06:00.194Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:07:58.199Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:07:59.235Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:08:54.159Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:09:00.861Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:09:01.909Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:10:13.428Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:10:14.466Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:12:03.423Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:12:04.476Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:13:24.411Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:13:25.492Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:15:53.881Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:15:54.965Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:16:18.547Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:16:19.579Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:16:44.231Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:16:45.271Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:17:01.129Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:17:02.187Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:17:28.421Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:17:29.480Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:18:42.910Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:18:43.968Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:21:27.539Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:21:28.612Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:21:44.652Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:21:45.687Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:22:02.688Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:22:03.870Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:22:09.197Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:22:10.249Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:24:39.654Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:24:40.791Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:25:08.871Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:25:10.016Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:26:19.901Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:26:21.020Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:27:05.468Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:27:06.560Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:30:56.406Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:30:57.509Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:32:26.379Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:32:27.589Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:33:50.794Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:33:51.873Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:34:36.872Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:34:38.008Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:36:27.465Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:36:28.513Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:36:57.033Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:36:58.159Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:37:31.685Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:37:32.905Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:38:07.842Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:38:08.902Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:39:04.109Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:39:05.142Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:40:22.735Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:40:23.789Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:40:39.233Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:40:40.276Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:43:22.097Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:43:23.163Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:45:19.798Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:45:59.482Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:46:00.626Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:47:32.380Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:47:33.454Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:48:19.394Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:48:20.708Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:52:18.212Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:52:19.249Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-11T23:57:48.847Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-11T23:57:50.022Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:00:53.589Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:00:54.704Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:05:51.411Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:05:52.474Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:08:10.812Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:08:11.944Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:10:10.106Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:10:11.177Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:10:42.779Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:10:43.888Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:10:52.750Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:10:53.834Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:11:01.432Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:11:02.630Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:12:13.509Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:12:14.582Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:15:59.229Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:16:00.314Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:17:08.694Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:17:26.089Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:17:27.124Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:19:57.040Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:19:58.106Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:20:38.825Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:20:40.045Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:20:59.673Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:21:00.802Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:22:02.735Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:22:03.804Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:26:23.284Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:26:24.317Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:27:43.794Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:27:44.870Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:28:59.773Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:29:01.048Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:32:32.856Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:32:33.935Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:33:03.293Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:33:04.455Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:33:33.569Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:33:34.631Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:43:40.391Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:43:41.527Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:45:54.738Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:45:56.033Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:46:25.175Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:46:26.208Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:47:59.884Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:48:01.034Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:48:11.174Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:48:12.206Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:49:02.553Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:49:03.628Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:50:39.106Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:50:40.280Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:52:49.100Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:52:50.250Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:52:59.584Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:53:00.616Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:54:42.466Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:54:43.575Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:55:53.146Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:56:02.763Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:56:03.877Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:56:24.784Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:56:25.911Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:56:42.679Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:56:43.810Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:58:04.524Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:58:05.620Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T00:58:29.760Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T00:58:30.846Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T01:06:48.199Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T01:06:49.522Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T01:08:02.677Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T01:08:03.799Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T01:09:11.784Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T01:09:12.837Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T01:09:36.793Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T01:09:38.009Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T01:19:35.679Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T01:19:36.726Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T01:20:40.033Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T01:20:41.380Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T01:21:23.292Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T01:21:24.395Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T01:22:40.897Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T01:22:41.971Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:15:27.961Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:15:29.046Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:17:03.261Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:17:04.347Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:17:45.791Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:17:46.831Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:19:25.765Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:19:26.873Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:20:15.942Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:20:16.980Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:21:01.110Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:21:02.171Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:23:59.850Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:24:00.897Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:25:01.886Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:25:02.939Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:30:27.860Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:30:29.067Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:30:46.859Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:30:48.006Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:31:12.813Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:31:13.871Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:33:41.101Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:33:42.315Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:36:40.022Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:36:41.103Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:48:31.353Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:48:32.392Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T07:58:55.686Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T07:58:56.726Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T12:03:58.454Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T12:03:59.494Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T12:38:16.953Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T12:38:18.009Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T12:38:48.683Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T12:38:49.811Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T14:49:03.776Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T14:49:04.867Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T14:50:14.700Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T14:50:15.742Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:20:18.331Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:20:19.467Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:20:52.463Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:20:53.580Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:22:38.913Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:22:39.950Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:23:02.487Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:23:03.661Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:24:29.094Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:24:30.138Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:26:24.581Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:26:25.628Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:27:28.403Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:27:29.531Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:27:52.495Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:27:53.589Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:28:20.650Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:28:21.731Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:28:39.894Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:28:40.972Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:29:06.474Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:29:07.723Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:29:13.090Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:29:14.153Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:30:35.828Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:30:36.928Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:32:36.292Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:32:37.346Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:35:44.707Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:35:45.746Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:36:19.268Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:36:20.410Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:38:56.914Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:38:57.953Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:42:05.498Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:42:06.687Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:42:41.981Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:42:43.034Z"}
-{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-12T18:43:33.761Z"}
-{"level":"info","message":"Database connected successfully","timestamp":"2019-03-12T18:43:35.020Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:14:59.232Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:15:00.299Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:15:42.137Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:15:43.428Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:17:40.037Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:17:41.559Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:18:07.409Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:18:08.484Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:18:54.506Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:18:55.592Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:19:51.075Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:19:52.108Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:20:50.743Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:20:51.776Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:20:59.563Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:21:00.908Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:21:57.288Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:21:58.327Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:22:29.236Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:22:30.299Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:23:14.283Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:23:15.340Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:25:34.965Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:25:36.149Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:26:57.205Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:26:58.269Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:27:11.949Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:27:13.009Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:27:32.476Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:27:33.510Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:28:41.889Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:28:43.041Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:29:27.053Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:29:28.385Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:32:06.563Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:32:07.600Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:33:39.110Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:33:40.215Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:35:49.367Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:35:55.754Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:35:56.790Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:36:42.416Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:36:43.456Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:36:58.090Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:36:59.282Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:37:10.476Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:37:11.531Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:37:19.986Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:37:21.018Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:37:47.231Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:37:48.321Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:38:46.593Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:38:47.772Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:39:39.495Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:39:40.571Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:41:04.858Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:41:05.927Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:46:13.536Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:46:14.570Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T19:50:43.091Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T19:50:44.151Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T20:52:18.269Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T20:52:19.453Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T20:56:12.959Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T20:56:14.034Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T21:03:39.560Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T21:03:40.622Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T21:03:51.212Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T21:03:52.298Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T21:04:36.222Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T21:04:37.262Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T21:07:17.191Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T21:07:18.376Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-13T21:08:17.241Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-13T21:08:18.387Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:24:32.232Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:24:33.267Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:25:00.944Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:25:01.991Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:25:10.815Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:25:12.455Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:26:59.877Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:27:00.955Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:29:18.702Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:29:19.780Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:30:22.455Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:30:23.580Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:30:53.814Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:30:54.947Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:31:27.785Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:31:28.816Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:32:35.170Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:32:36.253Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:32:50.129Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:32:51.159Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:32:59.281Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:33:00.321Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:33:28.959Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:33:29.999Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:39:17.937Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:39:19.025Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:40:27.201Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:40:28.315Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:45:55.797Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:45:56.850Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:47:50.438Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:47:51.667Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:49:29.116Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:49:30.355Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:50:41.362Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:51:48.699Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:51:49.877Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:54:02.841Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:54:04.116Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:54:29.588Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:54:30.621Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:55:09.136Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:55:10.383Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:56:06.824Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:56:07.869Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:56:17.619Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:56:18.653Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:59:32.512Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:59:33.689Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T09:59:42.764Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T09:59:43.993Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:01:03.804Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:01:04.940Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:01:11.681Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:01:12.727Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:01:44.633Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:01:45.779Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:02:50.970Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:04:03.705Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:04:21.671Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:04:44.327Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:04:45.508Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:05:14.352Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:05:15.502Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:05:35.767Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:05:36.971Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:06:12.405Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:06:13.604Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:06:47.406Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:06:48.550Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:07:09.311Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:07:10.347Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:08:24.139Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:08:25.228Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:09:39.998Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:09:41.040Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:10:04.214Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:20:43.008Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:20:44.194Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:22:03.951Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:22:05.165Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:22:45.067Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:22:46.334Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:22:58.511Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:22:59.577Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:23:22.376Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:23:23.536Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:24:58.881Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:25:00.237Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:25:38.214Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:25:39.275Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:26:53.904Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:26:54.943Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:27:34.226Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:27:35.276Z"}
+{"level":"info","message":"App is listening on port: 9191","timestamp":"2019-03-14T10:27:42.604Z"}
+{"level":"info","message":"Database connected successfully","timestamp":"2019-03-14T10:27:43.637Z"}

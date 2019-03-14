@@ -8,6 +8,7 @@ const matchSchema = new mongoose.Schema({
     gher: { type: String, required: true },
     date: { type: Date, default: Date.now() },
     image: String,
+    phNumber: String,
 
     // status: { type: Array, default: [{ notConfirmed: true }, { pending: false }, { confirmed: false }] }
     status: { type: Boolean, default: false }

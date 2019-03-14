@@ -14,6 +14,7 @@ phSchema = new mongoose.Schema({
     amount: String,
     date: { type: Date, default: Date.now() },
     amount: { type: String, default: "2000" },
+    phNumber: String,
     image: String
 })
 

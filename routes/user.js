@@ -7,6 +7,8 @@ const router = express.Router()
 const nodemailer = require('nodemailer');
 const config = require('config');
 const jwt = require('jsonwebtoken');
+const userAuth = require('../middleware/userAuth');
+const adminAuth = require('../middleware/adminAuth');
 
 // const Mail = require('../classes/mailer')
 
@@ -19,7 +21,7 @@ router.post('/register', async(req, res) => {
 
     const { error } = Validate(req.body);
     if (error) {
-        res.status('400').send(error.details[0].message)
+        return res.status('400').send(error.details[0].message)
     }
 
     //check if user exist using email/username
@@ -78,25 +80,17 @@ router.post('/register', async(req, res) => {
     };
 
     transporter.sendMail(mailOptions, function(error, info) {
-            if (error) {
-                console.log('why email fail:', error);
-                //delete saved data
-            } else
-                console.log(info);
-        })
-        // Mail({
-        //     from,
-        //     to: "femoxmed@gmail.com",
-        //     subject,
-        //     text: `
-        // Click the link to verify your email address
+        if (error) {
+            console.log('why email fail:', error);
+            //delete saved data
+        } else
+            console.log(info);
+    })
 
-    // /api/user/confirmation/${token}`
-    // })
 })
 
 // Account Confirmation
-router.get('/confirmation/:token', async(req, res) => {
+router.get('/confirmation/:token', userAuth, async(req, res) => {
     const token = req.params.token;
     console.log(token);
 
@@ -121,7 +115,7 @@ router.get('/confirmation/:token', async(req, res) => {
 })
 
 // route to edit user profile
-router.put('/edit/:id', async(req, res) => {
+router.put('/edit/:id', userAuth, async(req, res) => {
     const Val = Validate(req.body);
     if (Val.error) return res.status(400).send(Val.error.details[0].message)
 
@@ -139,7 +133,7 @@ router.put('/edit/:id', async(req, res) => {
 })
 
 //route to delete a user
-router.delete('/delete/:id', async(req, res) => {
+router.delete('/delete/:id', adminAuth, async(req, res) => {
 
     const UsersExist = await Users.findByIdAndDelete(req.params.id);
 
@@ -149,7 +143,7 @@ router.delete('/delete/:id', async(req, res) => {
 })
 
 //route to get all users
-router.get('/all', async(req, res) => {
+router.get('/all', adminAuth, async(req, res) => {
     const UsersAll = await Users.find();
     if (UsersAll.length == 0) {
         res.send('No registered users available!')
@@ -158,14 +152,13 @@ router.get('/all', async(req, res) => {
 })
 
 //route to get a particular user
-router.get('/selected/:id', async(req, res) => {
+router.get('/selected/:id', adminAuth, async(req, res) => {
     const User = await Users.findById(req.params.id)
     res.send(User);
 })
 
 //route to get all isVerified users
-
-router.get('/verified', async(req, res) => {
+router.get('/verified', adminAuth, async(req, res) => {
     const VerifiedUser = await Users.find({ isVerified: true });
     if (VerifiedUser.length == 0) {
         res.send('No Verified User Available')

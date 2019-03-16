@@ -7,8 +7,8 @@ const jwt = require('jsonwebtoken');
 const getHelpSchema = new mongoose.Schema({
     name: String,
     user_id: String,
-    date: { type: Date, default: Date.now() },
-
+    amount: { type: Number, default: 2000 },
+    date: { type: Date, default: Date.now() }
 })
 
 function ghValidate(reqbody) {

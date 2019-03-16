@@ -66,11 +66,7 @@ const userSchema = new mongoose.Schema({
 // function to generate web token for the user 
 
 userSchema.methods.generateAuthToken = function() {
-    return jwt.sign({ _id: this._id, isAdmin: this.isAdmin, isVerified: this.isVerified }, config.get('pzPrivateKey')), {
-
-        expiresIn: '8h' // expires in 8 hours
-
-    }
+    return jwt.sign({ _id: this._id, username: this.username, isAdmin: this.isAdmin, isVerified: this.isVerified }, config.get('pzPrivateKey'))
 };
 
 // joi to validate users input
@@ -89,7 +85,15 @@ function Validate(reqbody) {
     return Joi.validate(reqbody, schema)
 };
 
+function loginValidate(reqbody) {
+    const schema = {
+        username: Joi.string(),
+        email: Joi.string(),
+        password: Joi.string().required()
+    }
+    return Joi.validate(reqbody, schema)
+}
 
 const Users = mongoose.model('Users', userSchema)
 
-module.exports = { Users, Validate, userSchema }
+module.exports = { Users, Validate, userSchema, loginValidate }

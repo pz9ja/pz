@@ -1,5 +1,6 @@
 const _ = require('lodash');
 const { ghValidate, GetHelp } = require('../models/GetHelp');
+const { ph } = require('../models/ProvideHelp')
 const { Users } = require('../models/user')
 const mongoose = require('mongoose');
 const express = require('express');
@@ -21,16 +22,20 @@ router.post('/', async(req, res) => {
 
     const GH = new GetHelp({
         name: `${user.firstName} ${user.lastName}`,
+        user_id: req.body.user_id,
 
-        user_id: req.body.user_id
     });
 
     const data = await GH.save();
 
     res.send(data);
 
-
-
 })
+
+// router.post('/ghworthyusers', (req, res) => {
+//     const ghWorthyph = ph.find();
+//     const ghWorthyph
+
+// })
 
 module.exports = router

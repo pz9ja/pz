@@ -15,7 +15,7 @@ module.exports = async function(req, res, next) {
         next()
 
     } catch (error) {
-        res.send(400).send('Invalid token')
+        res.send(400).send('Please Login or Register')
     }
 
 

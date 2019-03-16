@@ -4,17 +4,19 @@ const jwt = require('jsonwebtoken');
 const Joi = require('joi');
 const { userSchema } = require('./user')
 const matchSchema = new mongoose.Schema({
-    pher: { type: String, required: true },
-    gher: { type: String, required: true },
+    phid: { type: String, required: true },
+    pher: { type: Object, required: true },
+    ghid: { type: String, required: true },
+    gher: { type: Object, required: true },
     date: { type: Date, default: Date.now() },
     image: String,
-    phNumber: String,
+    ghNumber: String,
 
     // status: { type: Array, default: [{ notConfirmed: true }, { pending: false }, { confirmed: false }] }
     status: { type: Boolean, default: false }
 })
 
 
-const Matching = mongoose.model('MatchedUsers', matchSchema);
+const Matching = mongoose.model('matcheduser', matchSchema);
 
 module.exports = { Matching }

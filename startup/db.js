@@ -1,7 +1,15 @@
-const mongoose = require('mongoose')
-const winston = require('winston')
+const mongoose = require('mongoose');
+const winston = require('winston');
 
 module.exports = () => {
-    mongoose.connect('mongodb://localhost/pz_app', { useNewUrlParser: true })
-        .then(() => { winston.info('Database connected successfully') })
-}
+  mongoose.set('useCreateIndex', true);
+  mongoose
+    .connect('mongodb://localhost/pz_app', { useNewUrlParser: true })
+    .then(() => {
+      winston.info('Database connected successfully');
+    })
+    .catch(e => {
+      // if any error throw the error
+      throw new Error(e.message);
+    });
+};

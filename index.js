@@ -1,7 +1,6 @@
-const winston = require('winston')
+const winston = require('winston');
 const express = require('express');
 const app = express();
-
 
 //routes
 require('./startup/routes')(app);
@@ -12,10 +11,10 @@ require('./startup/logging')();
 //config
 require('./startup/config')();
 //validation
-require('./startup/validation')();
+require('./startup/validate')();
 
-const port = process.env.PORT || 9191
+const port = process.env.PORT || 9191;
 
 app.listen(port, () => {
-    winston.info(`App is listening on port: ${port}`);
-})
+  winston.info(`App is listening on port: ${port}`);
+});

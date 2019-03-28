@@ -1,5 +1,4 @@
 const _ = require('lodash');
-const bcrypt = require('bcrypt');
 const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
@@ -113,6 +112,8 @@ router.get('/confirmation/:token', async (req, res) => {
     }
   );
 
+  // here we can automatically add the user to the provide help  and also match the user to someone in the gh
+
   res.send({ success: 'Your account has been verified, you can now log in' });
 });
 
@@ -127,14 +128,20 @@ router.post('/login', async (req, res) => {
 
   try {
     const user = await User.findByCredentials(userCredential);
+    // check if the user's account has been verified
+    if (!user.isVerified) {
+      return res.status(400).send({
+        error: 'your account has to be verified before you can log in'
+      });
+      // create a button on the client side the resends the token for account confirmation
+    }
     // generate an authentication token for the user
     res
       .header('x-auth-token', user.generateAuthToken())
       .send(_.pick(user, ['_id', 'email']));
   } catch (error) {
-    res.status(400).send({ error: 'Invalid email or password' });
+    res.status(400).send({ error: error.message });
     // log the error
-    console.log(error);
   }
 });
 
@@ -190,11 +197,11 @@ router.put('/status/:id', adminAuth, async (req, res) => {
 
 //route to get all users
 router.get('/', adminAuth, async (req, res) => {
-  const UsersAll = await Users.find();
-  if (UsersAll.length == 0) {
+  const users = await User.find();
+  if (users.length == 0) {
     res.send('No registered users available!');
   }
-  res.send(UsersAll);
+  res.send(users);
 });
 
 //route to get a particular user

@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const Joi = require('joi');
+const moment = require('moment');
 
 //defining the schema for all users
 
@@ -54,7 +55,7 @@ const userSchema = new mongoose.Schema({
   },
   dateRegistered: {
     type: Date,
-    default: Date.now
+    default: moment.now()
   },
   isVerified: {
     type: Boolean,
@@ -91,7 +92,7 @@ userSchema.statics.findByCredentials = async function(loginCredential) {
   const user = await User.findOne().or([{ username }, { email: username }]);
 
   if (user) {
-    // tell bcrypt to compare their password
+    // tell bcrypt to compare the password
     const validated = await bcrypt.compare(password, user.password);
 
     if (validated) {
@@ -100,6 +101,9 @@ userSchema.statics.findByCredentials = async function(loginCredential) {
     } else {
       return Promise.reject(new Error('Password Mismatch'));
     }
+  } else {
+    // if we have have no user
+    return Promise.reject(new Error('Invalid Email/Password'));
   }
 };
 
@@ -124,36 +128,49 @@ function Validate(user) {
     firstName: Joi.string()
       .min(3)
       .max(50)
-      .required(),
+      .required()
+      .trim(),
     lastName: Joi.string()
       .min(3)
       .max(50)
-      .required(),
+      .required()
+      .trim(),
     username: Joi.string()
       .min(3)
       .max(50)
-      .required(),
-    phoneNumber: Joi.string().required(),
+      .required()
+      .trim(),
+    phoneNumber: Joi.string()
+      .required()
+      .trim(),
     email: Joi.string()
       .email()
       .max(100)
-      .required(),
-    bankName: Joi.string().required(),
-    accountName: Joi.string().required(),
+      .required()
+      .trim(),
+    bankName: Joi.string()
+      .required()
+      .trim(),
+    accountName: Joi.string()
+      .required()
+      .trim(),
     accountNumber: Joi.string()
       .required()
       .min(10)
-      .max(10),
+      .max(10)
+      .trim(),
     password: Joi.string()
       .min(5)
       .max(50)
       .required()
-      .strict(),
+      .strict()
+      .trim(),
     confirm_password: Joi.string()
       .valid(Joi.ref('password'))
       .required()
-      .strict(),
-    referral: Joi.string()
+      .strict()
+      .trim(),
+    referral: Joi.string().trim()
   };
   return Joi.validate(user, schema);
 }

@@ -1,8 +1,11 @@
-const winston = require('winston')
+const winston = require('winston');
 const express = require('express');
 const app = express();
+<<<<<<< HEAD:server/index.js
 const path = require('path');
 const publicPath = path.join(__dirname, '..', 'public');
+=======
+>>>>>>> 76ef2625786952d35eb521286c406af7e1dc9606:index.js
 
 //routes
 require('./startup/routes')(app);
@@ -15,7 +18,7 @@ require('./startup/config')();
 //validation
 require('./startup/validate')();
 
-const port = process.env.PORT || 9191
+const port = process.env.PORT || 9191;
 
 app.use(express.static(publicPath));
 
@@ -29,5 +32,5 @@ app.get('*', (req, res) => {
 
 
 app.listen(port, () => {
-    winston.info(`App is listening on port: ${port}`);
-})
+  winston.info(`App is listening on port: ${port}`);
+});

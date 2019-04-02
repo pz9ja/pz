@@ -3,7 +3,7 @@ import { reducer as formReducer } from 'redux-form';
 import thunk from 'redux-thunk';
 
 import { userReducer } from '../reducers/users';
-import { reducer as formRdeucer } from 'redux-form';
+
 // import filterReducer from '../reducers/filtersReducer';
 // import authReducer from '../reducers/auth';
 

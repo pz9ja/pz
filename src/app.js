@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter from './routes/AppRouter';
-//material-kit
 
 
 
 
-import '../node_modules/jquery/dist/jquery'
+
+import '../node_modules/jquery/dist/jquery.js';
 import '../node_modules/assets/js/core/popper.min.js';
 
-import '../node_modules/normalize.css'
+import '../node_modules/normalize.css';
 import './styles.css/style.scss';
 
 import configureStore from '../src/store/configureStore';

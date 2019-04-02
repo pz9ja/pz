@@ -9,9 +9,8 @@ import SigninPage from '../components/SignInPage'
 
 const AppRouter = () => (
   <BrowserRouter>
-    
-    <React.Fragment >
-    <Header/>
+<div>
+<Header/>
  <main role="main" className="inner">
       <Switch>
         <Route path="/" component={HomePage} exact={true} />
@@ -20,7 +19,7 @@ const AppRouter = () => (
       </Switch>
       </main>
       <Footer />
-      </React.Fragment>
+</div>
   </BrowserRouter>
 );
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import   Button from '@material-ui/core/Button';
-import { validateAll} from 'indicative';
+ import { validateAll} from 'indicative';
 import {connect} from 'react-redux'
 import { Field, reduxForm , formValueSelector} from 'redux-form'
 import TextField from '../../node_modules/@material-ui/core/TextField'
@@ -77,7 +77,7 @@ InputLabelProps={{style:{fontSize:15}}}
   
 )
 
-import card from '../styles.css/card.scss'
+
 class AddUser extends React.Component {
 
     render(){

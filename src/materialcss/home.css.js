@@ -1,6 +1,7 @@
 export const homepagestyles = theme => ({
     appBar: {
         position: 'relative',
+
     },
     icon: {
         marginRight: theme.spacing.unit * 2,
@@ -27,7 +28,7 @@ export const homepagestyles = theme => ({
         position: 'absolute',
         width: '100%',
         clear: 'both',
-        bottom: 0
+        // bottom: 0
 
 
 

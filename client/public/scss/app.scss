@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "MuseoSansVeryBold";
+  src: url("/fonts/MuseoSans_700.otf");
+}
+
+@font-face {
+  font-family: "MuseosansBold";
+  src: url("/fonts/MuseoSans_500.otf");
+}
+
+@font-face {
+  font-family: "MuseosansRegular";
+  src: url("/fonts/MuseoSans-300.otf");
+}
+
+@font-face {
+  font-family: "MuseosansLight";
+  src: url("/fonts/MuseoSans-100.otf");
+}
+
+@import "./sidebar.scss";
+@import "./variables";
+@import "./form";
+html,
+body,
+#app,
+main {
+  min-height: 100%;
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: "MuseosansLight" !important;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "MuseoSansVeryBold" !important;
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "MuseoSansBold";
+  font-weight: 500;
+}
+
+p {
+  font-family: "MuseosansLight" !important;
+}
+
+.lead {
+  font-size: 1.286rem;
+  line-height: 1.52;
+  font-family: "MuseoSansRegular" !important;
+}
+
+h1,
+.h1 {
+  font-size: 3.282rem;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+h2,
+.h2 {
+  font-size: 2.53rem;
+  letter-spacing: -1px;
+}
+
+h3,
+.h3 {
+  font-size: 1.943rem;
+  line-height: 1;
+}
+
+h4,
+.h4 {
+  // font-family: "Ubuntu", Nunito, sans-serif;
+  font-size: 1.718rem;
+  line-height: 1;
+}
+
+h5,
+.h5 {
+  font-size: 1.286rem;
+  line-height: 1.15;
+}
+
+.nice-select:after {
+  top: 21px !important;
+  right: 16px !important;
+  border-bottom: 2px solid #05d1dc !important;
+  border-right: 2px solid #05d1dc !important;
+  height: 7px !important;
+  width: 7px !important;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus,
+input:-internal-autofill-selected,
+input[type="search"]::-webkit-search-decoration,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="search"],
+input[type="search"]::-webkit-search-cancel-button,
+input::-moz-focus-inner,
+input[type="checkbox"],
+input[type="radio"],
+input[type="number"]::-webkit-inner-spin-button {
+  background-color: #ffffff !important;
+  color: #495057 !important;
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  -webkit-text-fill-color: #495057 !important;
+}
+
+.logo-font-size {
+  font-size: 2rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.z-index-5 {
+  z-index: 5;
+}
+
+.overlay-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #ae276d 0%, #000000 100%);
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.92;
+  background: linear-gradient(179.52deg, #460d3d 15.14%, #c82f7e 58.45%);
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #7342fa;
+}
+
+.form-control {
+  height: calc(2.6875rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.form-control-lg {
+  height: calc(2.6875rem + 2px);
+  padding: 1.58rem 1.25rem;
+  font-size: 1.09rem;
+  border-radius: 0.38rem;
+}
+
+.social {
+  img {
+    width: 20px;
+  }
+}
+
+.text-pink {
+  color: #ff8dc8;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.section-trend {
+  background: #5b4b5a0f;
+}
+
+.bg-grey {
+  background: #3a3a3a;
+}
+
+.divider-style {
+  height: 2px;
+  width: -webkit-fill-available;
+  background: antiquewhite;
+  margin-top: 50px;
+}
+.signin {
+  .ui.form .eight.fields .ui.input input,
+  .ui.form .five.fields .ui.input input,
+  .ui.form .four.fields .ui.input input,
+  .ui.form .nine.fields .ui.input input,
+  .ui.form .seven.fields .ui.input input,
+  .ui.form .six.fields .ui.input input,
+  .ui.form .ten.fields .ui.input input,
+  .ui.form .three.fields .ui.input input,
+  .ui.form .two.fields .ui.input input,
+  .ui.form .wide.field .ui.input input {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    width: 0;
+    height: calc(2.6875rem + 15px);
+    padding: 0.15rem 1rem;
+    font-size: 0.9rem;
+    line-height: 3;
+    border-radius: 0.3rem;
+  }
+}
